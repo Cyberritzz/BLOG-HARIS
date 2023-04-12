@@ -1,0 +1,40 @@
+body {
+    background-color: #ececec;
+}
+.login {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.kotak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px 90px;
+    color: #ececec;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+}
+.heading-dashboard {
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    margin: 100px 0 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn.grey {
+    background: #c5c5c5;
+    color: #000;
+    margin: 0 10px;
+}
+.btn.danger {
+    background: #f00;
+    color: #fff;
+}
